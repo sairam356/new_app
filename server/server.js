@@ -6,10 +6,11 @@ const port = process.env.PORT || 3000;
 var app = express();
 
 app.use(express.static(publicPath));
+
 app.get('/', function(req, res) {
    res.sendFile(publicPath+'/index.html');
 });
 
 app.listen(port, () => {
-  console.log(`Server is up on ${port} from sai`);
+  console.log(`Server is up `);
 });

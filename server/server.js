@@ -12,5 +12,5 @@ app.get('/', function(req, res) {
 });
 
 app.listen(port, () => {
-  console.log(`Server is up`);
+  console.log(`Server is Up`);
 });
